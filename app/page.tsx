@@ -81,6 +81,43 @@ export default function Home() {
           ))}
         </ul>
 
+        {/* Contact Cards */}
+        <div className="mt-8 space-y-3">
+          <a
+            href="mailto:neilsmahajan@gmail.com"
+            className="flex items-center gap-3 rounded-xl border border-emerald-400/30 bg-emerald-400/10 px-5 py-4 text-emerald-900 dark:text-emerald-100 backdrop-blur-sm hover:bg-emerald-400/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/60 transition"
+          >
+            <svg
+              className="h-5 w-5 text-emerald-500"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              aria-hidden
+            >
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <polyline points="3 7 12 13 21 7" />
+            </svg>
+            <span className="text-sm font-medium">neilsmahajan@gmail.com</span>
+          </a>
+          <a
+            href="tel:16232354581"
+            className="flex items-center gap-3 rounded-xl border border-sky-400/30 bg-sky-400/10 px-5 py-4 text-sky-900 dark:text-sky-100 backdrop-blur-sm hover:bg-sky-400/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400/60 transition"
+          >
+            <svg
+              className="h-5 w-5 text-sky-500"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              aria-hidden
+            >
+              <path d="M22 16.92V19a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3 5.18 2 2 0 0 1 5 3h2.09a2 2 0 0 1 2 1.72c.13.81.36 1.6.68 2.34a2 2 0 0 1-.45 2.11l-.27.27a16 16 0 0 0 6.29 6.29l.27-.27a2 2 0 0 1 2.11-.45c.74.32 1.53.55 2.34.68A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <span className="text-sm font-medium">(623) 235-4581</span>
+          </a>
+        </div>
+
         <footer className="mt-10 text-center text-xs text-foreground/50">
           © {new Date().getFullYear()} Neil Mahajan
         </footer>
